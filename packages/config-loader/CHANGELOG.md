@@ -1,5 +1,11 @@
 # @backstage/config-loader
 
+## 0.6.9
+
+### Patch Changes
+
+- ee7a1a4b64: Add option to collect configuration schemas from explicit package paths in addition to by package name.
+
 ## 0.6.8
 
 ### Patch Changes

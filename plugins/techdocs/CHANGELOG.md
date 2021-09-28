@@ -1,5 +1,19 @@
 # @backstage/plugin-techdocs
 
+## 0.11.4
+
+### Patch Changes
+
+- 3df2e8532b: Fixed the URL for the "Click to copy documentation link to clipboard" action
+- 0a8bec0877: Added a check for the TechDocs annotation on the entity
+- Updated dependencies
+  - @backstage/integration@0.6.6
+  - @backstage/core-components@0.6.0
+  - @backstage/integration-react@0.1.11
+  - @backstage/plugin-catalog@0.6.17
+  - @backstage/plugin-catalog-react@0.5.1
+  - @backstage/plugin-search@0.4.13
+
 ## 0.11.3
 
 ### Patch Changes

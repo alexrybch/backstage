@@ -1,5 +1,15 @@
 # @backstage/plugin-kubernetes
 
+## 0.4.15
+
+### Patch Changes
+
+- 8d397ef27a: Added a check for the Kubernetes annotation on the entity
+- 6c0bd7fb75: Add dashboard support for Rancher
+- Updated dependencies
+  - @backstage/core-components@0.6.0
+  - @backstage/plugin-catalog-react@0.5.1
+
 ## 0.4.14
 
 ### Patch Changes
