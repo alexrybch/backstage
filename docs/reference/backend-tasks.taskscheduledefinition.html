@@ -17,8 +17,8 @@
 <tr><th>Property</th><th>Type</th><th>Description</th></tr>
 </thead>
 <tbody>
-<tr><td><a href="/docs/reference/backend-tasks.taskscheduledefinition.frequency">frequency</a></td><td>{ cron: string; } | Duration</td><td>How often you want the task to run. The system does its best to avoid overlapping invocations.<!-- -->This is a best effort value; under some circumstances there can be deviations. For example, if the task runtime is longer than the frequency and the timeout has not been given or not been exceeded yet, the next invocation of this task will be delayed until after the previous one finishes.<!-- -->This is a required field.</td></tr>
-<tr><td><a href="/docs/reference/backend-tasks.taskscheduledefinition.initialdelay">initialDelay?</a></td><td>Duration</td><td><i>(Optional)</i> The amount of time that should pass before the first invocation happens.<!-- -->This can be useful in cold start scenarios to stagger or delay some heavy compute jobs.<!-- -->If no value is given for this field then the first invocation will happen as soon as possible according to the cadence.</td></tr>
+<tr><td><a href="/docs/reference/backend-tasks.taskscheduledefinition.frequency">frequency</a></td><td>{ cron: string; } | Duration</td><td>How often you want the task to run. The system does its best to avoid overlapping invocations.</td></tr>
+<tr><td><a href="/docs/reference/backend-tasks.taskscheduledefinition.initialdelay">initialDelay?</a></td><td>Duration</td><td><i>(Optional)</i> The amount of time that should pass before the first invocation happens.</td></tr>
 <tr><td><a href="/docs/reference/backend-tasks.taskscheduledefinition.timeout">timeout</a></td><td>Duration</td><td>The maximum amount of time that a single task invocation can take, before it's considered timed out and gets &quot;released&quot; such that a new invocation is permitted to take place (possibly, then, on a different worker).</td></tr>
 </tbody>
 </table>
