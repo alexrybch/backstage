@@ -51,12 +51,16 @@
 <tr><td><a href="/docs/reference/integration.getbitbucketserverdownloadurl">getBitbucketServerDownloadUrl(url, config)</a></td><td>Given a URL pointing to a path on a provider, returns a URL that is suitable for downloading the subtree.</td></tr>
 <tr><td><a href="/docs/reference/integration.getbitbucketserverfilefetchurl">getBitbucketServerFileFetchUrl(url, config)</a></td><td>Given a URL pointing to a file on a provider, returns a URL that is suitable for fetching the contents of the data.</td></tr>
 <tr><td><a href="/docs/reference/integration.getbitbucketserverrequestoptions">getBitbucketServerRequestOptions(config)</a></td><td>Gets the request options necessary to make requests to a given provider.</td></tr>
+<tr><td><a href="/docs/reference/integration.getgerritbranchapiurl">getGerritBranchApiUrl(config, url)</a></td><td>Return the url to get branch info from the Gerrit API.</td></tr>
+<tr><td><a href="/docs/reference/integration.getgerritclonerepourl">getGerritCloneRepoUrl(config, url)</a></td><td>Return the url to clone the repo that is referenced by the url.</td></tr>
 <tr><td><a href="/docs/reference/integration.getgerritfilecontentsapiurl">getGerritFileContentsApiUrl(config, url)</a></td><td>Return the url to fetch the contents of a file using the Gerrit API.</td></tr>
+<tr><td><a href="/docs/reference/integration.getgerritprojectsapiurl">getGerritProjectsApiUrl(config)</a></td><td>Return the url to query available projects using the Gerrit API.</td></tr>
 <tr><td><a href="/docs/reference/integration.getgerritrequestoptions">getGerritRequestOptions(config)</a></td><td>Return request headers for a Gerrit provider.</td></tr>
 <tr><td><a href="/docs/reference/integration.getgithubfilefetchurl">getGitHubFileFetchUrl(url, config, credentials)</a></td><td>Given a URL pointing to a file on a provider, returns a URL that is suitable for fetching the contents of the data.</td></tr>
 <tr><td><a href="/docs/reference/integration.getgithubrequestoptions">getGitHubRequestOptions(config, credentials)</a></td><td>Gets the request options necessary to make requests to a given provider.</td></tr>
 <tr><td><a href="/docs/reference/integration.getgitlabfilefetchurl">getGitLabFileFetchUrl(url, config)</a></td><td>Given a URL pointing to a file on a provider, returns a URL that is suitable for fetching the contents of the data.</td></tr>
 <tr><td><a href="/docs/reference/integration.getgitlabrequestoptions">getGitLabRequestOptions(config)</a></td><td>Gets the request options necessary to make requests to a given provider.</td></tr>
+<tr><td><a href="/docs/reference/integration.parsegerritgitilesurl">parseGerritGitilesUrl(config, url)</a></td><td>Parse a Gitiles URL and return branch, file path and project.</td></tr>
 <tr><td><a href="/docs/reference/integration.parsegerritjsonresponse">parseGerritJsonResponse(response)</a></td><td>Parse the json response from Gerrit and strip the magic prefix.</td></tr>
 <tr><td><a href="/docs/reference/integration.readawss3integrationconfig">readAwsS3IntegrationConfig(config)</a></td><td>Reads a single Aws S3 integration config.</td></tr>
 <tr><td><a href="/docs/reference/integration.readawss3integrationconfigs">readAwsS3IntegrationConfigs(configs)</a></td><td>Reads a set of AWS S3 integration configs, and inserts some defaults for public Amazon AWS if not specified.</td></tr>
